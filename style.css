@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Carlito&display=swap');
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Carlito';
+}
+
+.firstbar {
+  background-color: #000000;
+  position: relative;
+  height: 100px;
+}
+
+.titlecontainer > p {
+  position: relative;
+  color: #fff;
+  left: -480px;
+  top: -43px;
+}
+
+.firstbar > picture > img {
+  position: relative;
+  height: 35.07px;
+  width: 35.07px;
+  right: -120px;
+  bottom: -20px;
+}
+
+.fifthlist > picture > img {
+  position: relative;
+  height: 35.07px;
+  width: 35.07px;
+  top: -3px;
+}
+
+.buttoncontainer > .buttons {
+  position: relative;
+  margin-right: -1200px;
+  top: -55px;
+}
+
+.searchsection {
+  background-color: #dadbf1;
+  position: relative;
+  top: -50px;
+  height: 300px;
+}
+
+.searchcontent {
+  position: relative;
+  bottom: -70px;
+  text-align: center;
+}
+
+h1 {
+  position: relative;
+  font-size: 40px;
+  left: -15px;
+}
+
+#searchbar {
+  right: 50px;
+  height: 30px;
+  width: 400px;
+  border: 1px solid #000000;
+}
+
+.buttoncontainer > .buttons > button {
+  background-color: #191a1b;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  height: 35px;
+  width: 150px;
+  position: relative;
+  bottom: 40px;
+}
+
+.buttoncontainer > .buttons > button:last-child {
+  background-color: #4c5fd5;
+  color: #fff;
+  border: 0px solid #4c5fd5;
+  border-radius: 8px;
+  height: 35px;
+  width: 80px;
+  position: relative;
+  bottom: 40px;
+}
+
+footer {
+  background-color: #000000;
+}
+
+.firstcontainer,
+.secondcontainer,
+.thirdcontainer,
+.footercontainer,
+.titlecontainer,
+.buttoncontainer {
+  display: flex;
+  justify-content: center;
+}
+
+.descriptionsection {
+  position: relative;
+  top: -150px;
+  height: 1250px;
+}
+
+.footercontainer {
+  gap: 150px;
+  color: #fff;
+  position: relative;
+  height: 350px;
+  bottom: 300px;
+}
+
+.footercontainer > div > p > b {
+  font-size: 20px;
+}
+
+.footercontainer > div > p {
+  font-size: 15px;
+}
+
+.firstlist {
+  margin-left: 20px;
+}
+
+.fifthlist {
+  position: relative;
+  margin-top: 465px;
+  margin-left: -100px;
+}
+
+h5 {
+  font-size: 17px;
+}
+
+header {
+  font-size: 24px;
+}
+
+.firstlist > p > b,
+.secondlist > p > b,
+.thirdlist > p > b,
+.fourthlist > p > b {
+  margin-top: 25px;
+}
+
+.firstlist > p,
+.secondlist > p,
+.thirdlist > p,
+.fourthlist > p,
+.fifthlist > p {
+  margin: 3px;
+}
+
+.fourthlist p:last-child {
+  margin-top: -25px;
+}
+
+.firstlist,
+.secondlist,
+.thirdlist,
+.fourthlist {
+  position: relative;
+  top: 320px;
+}
+
+.firstcontainer > picture > img,
+.secondcontainer > picture > img {
+  float: left;
+  margin: 10px;
+}
+
+a {
+  color: #4c5fd5;
+}
+
+.firstcontainer,
+.secondcontainer,
+.thirdcontainer {
+  flex-flow: column wrap;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.thirdcontainer {
+  position: relative;
+  height: 400px;
+}
+
+.searchcontent > picture > img {
+  position: relative;
+  left: -40px;
+  bottom: -10px;
+}
+
+.branches {
+  position: relative;
+  text-align: center;
+  right: 300px;
+  top: 147px;
+  line-height: 32px;
+}
+
+.branches > picture > img {
+  position: relative;
+  height: 70px;
+  width: 70px;
+  left: -250px;
+  bottom: -160px;
+}
+
+.manageaccount {
+  position: relative;
+  text-align: center;
+  right: -250px;
+  top: -200px;
+  line-height: 32px;
+}
+
+.manageaccount > picture > img {
+  position: relative;
+  height: 70px;
+  width: 70px;
+  left: -260px;
+  bottom: -160px;
+}
+
+.manageorg {
+  position: relative;
+  text-align: center;
+  right: 300px;
+  top: -130px;
+  line-height: 32px;
+}
+
+.manageorg > picture > img {
+  position: relative;
+  height: 70px;
+  width: 70px;
+  left: -250px;
+  bottom: -140px;
+}
+
+.managebilling {
+  position: relative;
+  text-align: center;
+  right: -235px;
+  top: -480px;
+  line-height: 32px;
+}
+
+.managebilling > picture > img {
+  position: relative;
+  height: 70px;
+  width: 70px;
+  left: -230px;
+  bottom: -150px;
+}
+
+.auth {
+  position: relative;
+  text-align: center;
+  right: -50px;
+  top: -505px;
+  line-height: 32px;
+}
+
+.auth > picture > img {
+  position: relative;
+  height: 70px;
+  width: 70px;
+  left: -250px;
+  bottom: -140px;
+}
+
+.abstractsupport {
+  position: relative;
+  text-align: center;
+  right: 150px;
+  top: -520px;
+  line-height: 32px;
+}
+
+.abstractsupport > picture > img {
+  position: relative;
+  height: 70px;
+  width: 70px;
+  left: -230px;
+  bottom: -140px;
+}
+
+.spacing {
+  padding: 50px;
+}
+
+.spacingfooter {
+  padding: 5px;
+}
+
+.titlecontainer > picture > img {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  left: -1100px;
+  top: -25px;
+}
